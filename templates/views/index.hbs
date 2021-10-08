@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="css/font-awesome.min.css">
+ <link rel="stylesheet" href="../css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/style.css">
+ <title>FM CLUB</title>
+</head>
+<body class="bg-light">
+
+  <!-- Navbar start -->
+
+   {{>navbar}}
+  <!-- Navbar end -->
+
+  <!-- HOme section start -->
+  <section class="home py-5" id="home">
+    <div class="container-lg">
+      <div class="row min-vh-100 align-items-center align-content-center">
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="home-imgn text-center">
+            <img src="img/profile.png" class="rounded-circle mw-100" alt="protfolio img">
+          </div>
+       </div>
+       <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+         <div class="home-text">
+           <p class="text-muted mb-1">Hello I'm</p>
+           <h1 class="text-danger text-uppercase fs-1 fw-bold">Web Developer</h1>
+           <h2 class="fs-4">MD MAHBUB</h2>
+           <p class="mt-4 text-muted">Hello, My name is Md Mahbub.I'm a Full Stack Web Developer.
+             I knows many languages speacially Html and css etc
+           </p>
+           <a href="#portfolio" class="btn btn-danger px-3 mt-3">My Work</a>
+         </div>
+       </div>
+      </div>
+    </div>
+  </section>
+  <!-- HOme section end -->
+
+  <!-- About section start -->
+    {{>about}}
+  <!-- About section end -->
+  
+  <!-- services section start -->
+  {{>service}}
+  <!-- services section end -->
+
+  <!-- portfolio section start -->
+  {{>portfolio}}
+  <!-- portfolio section end -->`
+
+  <!-- freelancer aviable section start -->
+  {{>freelancer}}
+  <!-- freelancer aviable section end -->
+
+  <!-- testimonials section start -->
+    {{>testimonial}}
+  <!-- testimonials section end -->
+
+  <!-- contact section start -->
+  {{>contact}}
+  <!-- contact section end -->
+
+  <!-- footer section start -->
+   {{>footer}}
+  <!-- footer section end -->
+  
+ 
+
+
+ <script src="../jq/jquery.js" type="text/javascript" ></script>
+ <script src="../js/bootstrap.js" type="text/javascript" ></script>
+</body>
+</body>
+</html>
